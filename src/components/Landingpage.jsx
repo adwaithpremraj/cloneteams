@@ -1,6 +1,6 @@
 import React from 'react';
 import HeroTeamImage from '../assets/Hero1.avif';
-import './Landingpage.css'
+import './Landingpge.css'
 import Button from 'react-bootstrap/Button';
 import Image from 'react-bootstrap/Image';
 
