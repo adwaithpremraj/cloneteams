@@ -3,6 +3,9 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { faBriefcase, faBuilding, faChevronRight, faGraduationCap, faHouse } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import TogetherEmojis from '../../../src/assets/TogetherEmojis.avif';
+import StayProductive from '../../../src/assets/StayProductive.avif';
+
 
 function Body2() {
   return (
@@ -12,7 +15,7 @@ function Body2() {
         <div className="row mx-auto">
           <div className="col-md-6 mb-4">
             <Card>
-              <Card.Img variant="top" src="src\assets\TipsandTricks-TogetherEmojis.avif" />
+              <Card.Img variant="top" src={TogetherEmojis} />
               <Card.Body>
                 <Card.Title>Keep chats playful with together emojis in Teams</Card.Title>
                 <Card.Text>
@@ -24,7 +27,7 @@ function Body2() {
           </div>
           <div className="col-md-6 mb-4">
             <Card>
-              <Card.Img variant="top" src="src\assets\TipsandTricks-StayProductive.avif" />
+              <Card.Img variant="top" src={StayProductive} />
               <Card.Body>
                 <Card.Title>Stay productive with Microsoft Teams</Card.Title>
                 <Card.Text>

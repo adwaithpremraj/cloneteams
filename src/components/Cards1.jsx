@@ -3,6 +3,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import './Cards1.css'; // Import CSS file for styling
+import image1 from '../assets/Audience1.avif';
+import image2 from '../assets/Audience-2.avif';
+import image3 from '../assets/Audience-3.avif';
+import image4 from '../assets/Audience-4.avif';
+
+
 
 function Cards1() {
   return (
@@ -19,7 +25,7 @@ function Cards1() {
       <div className="row d-flex m-4 p-5">
         <div className="col-sm-6 col-md-3">
           <Card style={{ width: '18rem' }} className="m-4">
-            <Card.Img variant="top" src="src\assets\Audience1.avif" />
+            <Card.Img variant="top" src={image1} />
             <Card.Body>
               <Card.Title> <a href="" style={{ fontSize:'15px'}}>Enterprise 
                 <FontAwesomeIcon icon={faChevronRight} className="chevron-icon" /></a> </Card.Title>
@@ -29,7 +35,7 @@ function Cards1() {
 
         <div className="col-sm-6 col-md-3">
           <Card style={{ width: '18rem' }} className="m-4">
-            <Card.Img variant="top" src="src\assets\Audience-2.avif" />
+            <Card.Img variant="top" src={image2} />
             <Card.Body>
               <Card.Title> <a href="" style={{ fontSize:'15px'}}>Business 
                 <FontAwesomeIcon icon={faChevronRight} className="chevron-icon" /></a> </Card.Title>
@@ -39,7 +45,7 @@ function Cards1() {
 
         <div className="col-sm-6 col-md-3">
           <Card style={{ width: '18rem' }} className="m-4">
-            <Card.Img variant="top" src="src\assets\Audience-3.avif" />
+            <Card.Img variant="top" src={image3} />
             <Card.Body>
               <Card.Title> <a href="" style={{ fontSize:'15px'}}>Home 
                 <FontAwesomeIcon icon={faChevronRight} className="chevron-icon" /></a> </Card.Title>
@@ -49,7 +55,7 @@ function Cards1() {
 
         <div className="col-sm-6 col-md-3">
           <Card style={{ width: '18rem' }} className="m-4">
-            <Card.Img variant="top" src="src\assets\Audience-4.avif" />
+            <Card.Img variant="top" src={image4} />
             <Card.Body>
               <Card.Title> <a href="" style={{ fontSize:'15px'}}>Education
                 <FontAwesomeIcon icon={faChevronRight} className="chevron-icon" /></a> </Card.Title>

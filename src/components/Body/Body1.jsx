@@ -1,8 +1,9 @@
 import React from 'react';
+import FeatureMeet from '../../../src/assets/Feature-Meet.avif';
 
 function Body1() {
   return (
-    <>
+    <>  
       <div className="row my-5" style={{ marginTop: '150px', marginBottom: '50px' }}>
         <div className="col-md-6">
           <div className='row'>
@@ -21,7 +22,7 @@ function Body1() {
           </div>
         </div>
         <div className="col-md-6">
-          <img src="src\assets\Feature-Meet.avif" alt="no" className="img-fluid" />
+          <img src={FeatureMeet} alt="no" className="img-fluid" />
         </div>
       </div>
 
