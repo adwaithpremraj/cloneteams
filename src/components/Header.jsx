@@ -6,6 +6,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import './Header.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDown, faChevronRight } from '@fortawesome/free-solid-svg-icons';
+import teams from '../assets/teams.png';
 
 function Header() {
   return (
@@ -14,7 +15,7 @@ function Header() {
             <div className=''>
             <Navbar expand="lg" className="bg-body-tertiary">
               <Container>
-              <img src="src\assets\teams.png" 
+              <img src={teams}
                     className='topimg mt-1 me-1 ms-5'
                     alt="no image" 
                     height="20px" 
