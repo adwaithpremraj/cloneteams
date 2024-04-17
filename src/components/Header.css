@@ -1,0 +1,72 @@
+.navlinks{
+    font-size:15px;
+}         
+.Downloaded{
+    text-decoration: none;
+}
+.teamsbold{
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 13px;
+}
+.topimg{
+    margin-top: -9px;
+}
+
+.fontsizetext{
+    font-size: 14px;
+}
+.fontsizeteams{
+    font-size: 48px;
+}
+.Microsoft{
+    font-size: 20px;
+
+}
+.borderblue{
+    /* border: 30px solid blue; */
+    border-color: blue;
+}
+.rightend{
+    font-size: 14px;
+
+}
+.navblue{
+    background-color:#5B5FC7;
+    color: #fffdfd;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.Registernow{
+    text-decoration: none;
+    color:white;
+    font-weight:bold
+}
+.parahead{
+    text-align: right;
+}
+
+@media screen and (max-width: 600px) {
+    .microvbar,
+    .rightend {
+      display: none;
+    }
+    .navblue1{
+        flex: left;
+        font-size: 15px;
+    }
+    .Registernow{
+        flex: right;
+    }
+    .parahead2{
+        padding-right: 30px;
+        text-align: right;
+
+    }
+  }
+
+ 
+
+  
